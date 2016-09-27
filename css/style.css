@@ -1,0 +1,24 @@
+.imgContainer{
+    float: left;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 40px;  
+    border: 2px solid black;
+}
+
+.images{
+    cursor:pointer;
+}
+
+.imgDesc{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    cursor : pointer;
+}
+
+#form_btn{
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}

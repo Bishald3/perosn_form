@@ -2,9 +2,21 @@
 <html>
     <head>
         <title>Person form</title>
+        
+        <link rel="stylesheet" href="/css/style.css">
     </head>
-    <body>
+    <body ng-app="personApp">
+        <div ng-controller ="form_controller">
+            <record></record>
+        
+        </div>
     
+        
+        <script type='text/javascript' src='/node_modules/angular/angular.js'></script>
+        <script type='text/javascript' src='/js/personApp.js'></script>
+        <script type='text/javascript' src='/js/services/record.js'></script>
+        <script type='text/javascript' src='/js/controllers/form_controller.js'></script>
+        <script type='text/javascript' src='/js/directives/form_directive.js'></script>
     </body>
     
 </html>

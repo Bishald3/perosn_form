@@ -1,0 +1,17 @@
+<div class="personList">
+        <div id="form_btn">
+            <button ng-click="">FORM</button>
+        </div>
+        <div ng-repeat= 'person in personList'>
+            <div  class="imgContainer">
+                <label><img class="images" ng-src="{{person.imgPath}}" height="400" width="400"/></label>
+                    <div class="imgDesc">
+                        <label>{{person.FirstName}}
+                        {{person.LastName}}
+                        </label> 
+                     </div>
+            </div>
+        </div>
+
+
+</div>

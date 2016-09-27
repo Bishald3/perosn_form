@@ -1,7 +1,7 @@
 <! doctype html>
 <html>
     <head>
-        <title> Cubic </title>
+        <title> FORM </title>
     </head>
     <body>
         <form name= 'form' method='post'>
@@ -26,73 +26,33 @@
             <span id="l_nameerror"></span>
         </tr>
         
-        <tr>
-                <td> 
-                    <label id="gender"> First Name</label> 
-                </td>
-                <td>
-                <input type = "radio" name = "gender" value = "male"> Male
-                <input type = "radio" name = "gender" value = "female"> Female
-                <input type = "radio" name = "gender" value = "others"> Others
-                </td>
-            <span id="gendererror"></span>
-        </tr>
+    
         
         <tr>
             <td>
                 <u>
-                <label id="lbaddress"> Physical Adress </label> 
+                <label id="lbaddress"> Address </label> 
                 </u>
             </td>
-        </tr>
-        <tr>
-            <td> Address1</td>
-            <td><input type = "text" name = "address" id = 'address' placeholder="Enter street name"> </td>
-            <td> State</td>
-            <td> <select name = "state" id = 'state'> 
-                <option values = " "> </option>
-                <option values = "bra"> TX</option> 
-                <option values = "Ger"> MD</option>  
-                <option values = "New"> MN</option>
-                <option values = "thai"> ND</option> 
-                </select>
-            </td>
-            <span id="addresserror"></span>
+            <td><input type ="text" name ="address" id ="address" placeholder="Enter your address"></td>
         </tr>
         
         <tr>
-            <td> 
-                <label id="lblcity"></label>
+            <td>
+                <label id="">Phone Number</label>
             </td>
-        <td> <input type = "text" name = "city" id = 'city' placeholder="Enter city"> </td>
-            <span id="cityerror"></span>
+            <td><input type="text" name="phone" id ="phone" placeholder="XXX-XXX-XXXX"></td>
         </tr>
         
-         <tr>
-             <td> 
-             <label id="lblcountry"> Country </label>
-             </td> 
-                <td>
-                <select name = "countries" id = 'countries'> 
-                <option values = " "> Select Countries</option>
-                <option values = "bra"> USA </option> 
-                <option values = "bra"> Brazil </option> 
-                <option values = "Ger"> Germany </option>  
-                <option values = "New"> Newzealand </option>
-                <option values = "thai"> Thailand </option> 
-                </select>
-                </td>
-             <span id="countryerror"></span>
-        </tr>
-        
-        <tr> 
-            <td> 
-                <label id="lblcontact"> Contact </label>
+        <tr>
+            <td>
+                <label id="">Image Path</label>
             </td>
-            <td><input type = "text" name = "contact" id = 'contact' placeholder="(xxx)-xxx-xxx"> </td>
-            <span id="contacterror"></span>
+            <td><input type="text" name="image_path" id=img_path placeholder="/XXXXX.jpg/svg/png"></td>
         </tr>
-
+      
+        
+    
         
         
     </table>
@@ -105,25 +65,13 @@
     </form>
         
         
-        <hr>
-            <div id ='first'> first contents</div>
-            <div id = 'second'> second contents </div>
-            
-            <button id = 'firstbtn'> display first </button>
-            <button id = 'secondbtn'> display Second </button>
-            
-            <button id = 'thirdbtn'> DisplayAll</button>
-            <button id = 'fourthbtn'> Add class</button>
-            <button id = 'fifthbtn'> Remove class</button>
-            
-            <div id = "display"></div>
+    
         
-            <button type = "button" data-toggle="modal" onclick = 'displayperson(event)'> Display </button>
-        <link rel="stylesheet" href="../style/style.css">
-        <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.js"></script>
-        <script type="text/javascript" src="../js/proj7.min.js"></script>    
-         <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" >
-        <script type="text/javascript" src="../../node_modules/bootstrap/dist/css/bootstrap.css"></script>
+        <button type = "button" data-toggle="modal" onclick = 'displayperson(event)'> RECORDS </button>
+        <link rel="stylesheet" href="/style/style.css">
+        <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>  
+         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css" >
+        <script type="text/javascript" src="/node_modules/bootstrap/dist/css/bootstrap.css"></script>
         
        
     </body>  
